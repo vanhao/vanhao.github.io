@@ -1,0 +1,45 @@
+<html>
+  <head>
+  <title></title>
+	//<script src="https://code.createjs.com/soundjs-0.6.2.min.js"></script>
+	<script src="soundjs-0.6.2.min.js"></script>
+	<script src="extra.js"></script>
+    <script src="snake.js"></script>
+    <script src="game.js"></script>
+	
+    <script type='text/javascript'>
+    window.onload = function()
+    {
+        var game = new Game("canvas");
+        game.init();
+    }
+    </script>
+  </head>
+ 
+  <body>
+    <canvas id="canvas" tabindex="0" style="margin-left: 250;
+											padding: 0;
+											background-image: url('image/background_color.png');
+											//background-repeat: no-repeat;
+											//background-attachment: fixed;
+											//background-color: #e0ffff;
+											"> </canvas>
+											
+	<div style="display:none;">
+	<img id="src01" src="image/green_snake.jpg">
+	</div>
+	
+	<div style="display:none;">
+	<img id="src02" src="image/gameover.png">
+	</div>
+	
+	<div style="display:none;">
+	<img id="src03" src="image/octagon.png">
+	</div>
+	
+	<div style="display:none;">
+	<img id="src04" src="image/strawberry.png">
+	</div>
+	
+  </body>
+</html>
